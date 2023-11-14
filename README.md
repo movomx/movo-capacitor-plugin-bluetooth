@@ -1,37 +1,7 @@
 # movo-capacitor-plugin-bluetooth
 
-Capacitor plugin for serial bluetooth connection
+Capacitor plugins for serial bluetooth communication.
 
-## Install
+Following the Capacitor plugin philosphy, we split the functionalities related to bluetooth in specialized and concrete plugins:
 
-```bash
-npm install movo-capacitor-plugin-bluetooth
-npx cap sync
-```
-
-## API
-
-<docgen-index>
-
-* [`echo(...)`](#echo)
-
-</docgen-index>
-
-<docgen-api>
-<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
-
-### echo(...)
-
-```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
-```
-
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
-
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
-
---------------------
-
-</docgen-api>
+- [movo-capacitor-plugin-bluetooth-scanner](https://github.com/movomx/movo-capacitor-plugin-bluetooth-scanner)
